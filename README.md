@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Exchange Rate Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación React que utiliza la API de Frankfurter para generar informes de tasas de cambio entre dos monedas en un rango de fechas especificado.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Selección de Monedas:** Puedes especificar la moneda base y la moneda de destino para obtener tasas de cambio.
 
-### `npm start`
+- **Rango de Fechas:** Puedes seleccionar un rango de fechas para el cual deseas obtener las tasas de cambio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Generación de Informes:** La aplicación permite generar informes en formato Excel (XLSX) con las tasas de cambio obtenidas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Opciones de Informe:** Puedes elegir generar un informe único o múltiples informes en hojas de Excel separadas.
 
-### `npm test`
+## Uso
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clonar el Repositorio:**
+   ```bash
+   git clone  https://github.com/Daljesone/currendate.git
+   cd tu-proyecto
 
-### `npm run build`
+2. **Instalar Dependencias:**
+    npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Ejecutar la Aplicación:**
+    npm run start  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Acceder a la Aplicación:**
+Abre tu navegador y visita http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Configurar Informe:**
 
-### `npm run eject`
+    Selecciona la moneda base y de destino.
+    Establece el rango de fechas.
+    Opcionalmente, activa la opción para generar múltiples hojas.
+    Generar Informe:
+    Haz clic en el botón "Generate Exchange Rates Report" para generar el informe.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    **Dependencias**
+    React: La biblioteca principal para la interfaz de usuario.
+    XLSX: Utilizado para la manipulación de archivos Excel (generación de hojas y libros).
+    API de Frankfurter
+    Este proyecto utiliza la API de Frankfurter para obtener tasas de cambio. Asegúrate de revisar la documentación de la API para obtener más información: Frankfurter API
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    **Notas Adicionales**
+    Este proyecto es solo un ejemplo y puede requerir ajustes según tus necesidades específicas.
+    Asegúrate de manejar adecuadamente las restricciones y límites de uso de la API de Frankfurter.
+    Licencia
+    Este proyecto está bajo la Licencia MIT - Consulta el archivo LICENSE para más detalles. 

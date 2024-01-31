@@ -21,10 +21,12 @@ Este proyecto es una aplicación React que utiliza la API de Frankfurter para ge
 
 2. **Instalar Dependencias:**
 
-    ```bash npm install
+    ```bash
+    npm install
 
 3. **Ejecutar la Aplicación:**
-    ```bash npm run start  
+    ```bash
+    npm run start  
 
 4. **Acceder a la Aplicación:**
 Abre tu navegador y visita http://localhost:3000.

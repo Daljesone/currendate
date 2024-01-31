@@ -1,7 +1,7 @@
 # Exchange Rate Generator
 
 Este proyecto es una aplicación React que utiliza la API de Frankfurter para generar informes de tasas de cambio entre dos monedas en un rango de fechas especificado.
-
+Usando la libreria xlsx
 ## Características
 
 - **Selección de Monedas:** Puedes especificar la moneda base y la moneda de destino para obtener tasas de cambio.
